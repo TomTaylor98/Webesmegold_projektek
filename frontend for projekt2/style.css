@@ -1,0 +1,16 @@
+.main{
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+}
+.action_button{
+    background-color: black;
+    color: white;
+}
+table,th,td{
+    table-layout: fixed;
+    border: 2px solid;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}

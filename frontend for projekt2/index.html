@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>movie database</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <h1 style="text-align: center;" >Movie database</h1>
+    <body>
+        <div class="main">
+            <label for="id">movie id:</label>
+            <input type="text" class="movie_input" id="id"> <br> <br>
+            <button class="action_button" >Get Movie</button> <br> <br>
+            
+                <br>
+            <table style="width: 100% ">
+                <caption style="font-weight: bold" >Details</caption>		
+                <tr>
+                    <th style="width: 10%;">id</th>
+                    <th>Title</th>
+                    
+                    <th>Director</th>
+                    <th>year</th>
+                </tr>
+                <tr style="height: 20px position:absolute;">
+                    <td class="greeting-id" ></td>
+                    <td class="greeting-content"></td>
+                    
+                    <td class="director"></td>
+                    <td class="year"></td>
+                </tr>
+                
+            </table>
+            
+        </div>
+       
+        <script src="hello.js"></script>
+    </body>
+</html>
